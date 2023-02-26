@@ -6,5 +6,4 @@ WORKDIR /var/www/html
 RUN unzip global.zip  
 RUN rm -rf global.zip &&\
     mv global-master/* . &&\
-EXPOSE 80
 CMD httpd -DFORGROUND
