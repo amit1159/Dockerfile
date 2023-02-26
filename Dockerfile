@@ -8,4 +8,3 @@ RUN rm -rf global.zip &&\
     rm -rf global &&\
 EXPOSE 80
 CMD httpd -DFORGROUND
-ee
