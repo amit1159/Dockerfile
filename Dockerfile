@@ -7,4 +7,4 @@ RUN unzip global.zip
 RUN rm -rf global.zip 
 RUN mv global-master/* . 
 EXPOSE 80    
-CMD httpd -DFORGROUND
+CMD httpd -DFOREGROUND
