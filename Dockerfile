@@ -5,6 +5,6 @@ ADD https://www.free-css.com/assets/files/free-css-templates/download/page288/fo
 WORKDIR /var/www/html/
 RUN unzip foste.zip 
 RUN rm -rf foste.zip 
-RUN mv foste.zip/* . 
+RUN mv html/* . 
 EXPOSE 80    
 CMD httpd -DFOREGROUND
